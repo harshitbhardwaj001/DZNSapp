@@ -5,7 +5,7 @@ import { BlurView } from "expo-blur";
 
 const Navbar = ({ navigation }) => {
   return (
-    <BlurView intensity={50} tint="dark" style={styles.navbar}>
+    <BlurView intensity={100} tint="dark" style={styles.navbar}>
       <TouchableOpacity onPress={() => navigation.navigate("Home")}>
         <Ionicons name="home" size={24} color="white" />
       </TouchableOpacity>
@@ -26,14 +26,14 @@ const styles = StyleSheet.create({
   navbar: {
     flexDirection: "row",
     justifyContent: "space-around",
-    paddingVertical: 10,
+    paddingVertical: 20,
     paddingHorizontal: 20,
-    borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
+    // borderTopLeftRadius: 20,
+    // borderTopRightRadius: 20,
     position: "absolute",
-    bottom: 0,
+    bottom: 10,
     width: "100%",
-    backgroundColor: "rgba(255, 255, 255, 0.2)", // Glassy effect
+    backgroundColor: "rgba(16, 17, 19, 0.3)", // Glassy effect
   },
 });
 

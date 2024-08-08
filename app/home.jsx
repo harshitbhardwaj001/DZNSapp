@@ -199,14 +199,16 @@ const styles = StyleSheet.create({
   },
   heroSection: {
     paddingHorizontal: 20,
-    height: 200,
+    height: 90,
     marginBottom: 20,
     fontFamily: "CustomFont",
   },
   heroBackground: {
     borderRadius: 20,
     padding: 20,
-    height: 200,
+    height: 90,
+    justifyContent: "center",
+    alignItems: "center",
   },
   searchContainer: {
     flexDirection: "row",
